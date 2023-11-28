@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.VueController">
+   <children>
+      <Button fx:id="button" layoutX="143.0" layoutY="181.0" mnemonicParsing="false" onMouseClicked="#calcul" prefHeight="39.0" prefWidth="315.0" text="Calculator">
+         <font>
+            <Font name="Arial" size="26.0" />
+         </font>
+      </Button>
+      <Label layoutX="85.0" layoutY="64.0" prefHeight="28.0" prefWidth="57.0" text="Bill" />
+      <TextField fx:id="montant" layoutX="114.0" layoutY="66.0" prefHeight="25.0" prefWidth="88.0" />
+      <Label layoutX="278.0" layoutY="63.0" prefHeight="28.0" prefWidth="57.0" text="Tip%" />
+      <TextField fx:id="pourcentage" layoutX="307.0" layoutY="65.0" prefHeight="25.0" prefWidth="36.0" />
+      <Label layoutX="401.0" layoutY="63.0" prefHeight="28.0" prefWidth="57.0" text="Nb People" />
+      <TextField fx:id="nbPersonne" layoutX="464.0" layoutY="64.0" prefHeight="25.0" prefWidth="29.0" />
+      <TextField fx:id="tip" layoutX="154.0" layoutY="315.0" prefHeight="49.0" prefWidth="102.0" />
+      <TextField fx:id="total" layoutX="409.0" layoutY="315.0" prefHeight="49.0" prefWidth="102.0" />
+      <Label layoutX="307.0" layoutY="326.0" prefHeight="28.0" prefWidth="102.0" text="Total (per person)" />
+      <Label layoutX="55.0" layoutY="326.0" prefHeight="28.0" prefWidth="88.0" text="Tip (per person)" />
+      <Label fx:id="error" layoutX="221.0" layoutY="22.0" prefHeight="25.0" prefWidth="114.0" />
+      <TextField fx:id="date" layoutX="357.0" layoutY="22.0" prefHeight="25.0" prefWidth="88.0" />
+   </children>
+</Pane>
